@@ -1,0 +1,47 @@
+.container{
+  max-width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+}
+.height{
+  height: 100%;
+  width: 100%;
+}
+.logo img{
+  height:80px;
+   width:99px;
+}
+.right-icons img{
+  height: 30px;
+  width: 30px;
+}
+header{
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+.bg-aaa-900{
+  background-color: #816690;
+}
+.bg-bbb-900{
+  background-color: #673386;
+}
+.registr{
+  color: #4E04ED;
+}
+.password{
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}
+.email{
+  position: absolute;
+  top: 71px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}

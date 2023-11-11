@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="bascket.css">
+</head>
+<body>
+  <header class="text-black-400 bg-aaa-900 body-font">
+    <div class="container mx-auto flex flex-wrap  flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img src="../img/logo.svg" alt="" height="80px" width="99px">
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center" >
+        <a class="mr-5 hover:text-white">Мототехника</a>
+        <a class="mr-5 hover:text-white">Запчасти</a>
+        <a class="mr-5 hover:text-white">Аксесуары</a>
+        <a class="mr-5 hover:text-white">Контакты</a>
+        <a class="mr-5 hover:text-white">Расходники</a>
+      </nav>
+      <div class="right-icons flex gap-5">
+              <a href="#" class="bascket">
+        <img src="../img/bascket.svg" alt="">
+      </a>
+      <a href="#" class="user">
+        <img src="../img/user.svg" alt="">
+      </a>
+      </div>
+
+    </div>
+  </header>
+</div>
+<div class="container">
+  <div class="korzina">
+      <h1>Корзина</h1>
+      <div class="left">
+        <p>Итого <span class="total-price">1 349 900 ₽</span></p>
+        <a href="#">Очистить корзину</a>
+      </div>
+  </div>
+</div>
+<div class="container">
+  <section class="text-gray-600 body-font">
+      <div class=" w-full mx-auto overflow-auto">
+        <table class="table-auto w-full  whitespace-no-wrap">
+          <tbody>
+            <tr>
+              <td class="px-4 py-3"><a href="#"><img src="../img/bike.png " alt="" width="130" height="90"></a></td>
+              <td class="px-4 py-3">Эндуро мотоцикл Husqvarna FC 350</td>
+              <td class="px-4 py-3">
+                <div class="counter">
+                  <button class="btn-minus">-</button>
+                  <span id="counter-value-1">1</span>
+                  <button class="btn-plus">+</button>
+                </div>
+              </td>
+              <td class="px-4 py-3 text-lg text-gray-900"><span class="price">1 349 900 ₽</span></td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3"><a href="#"><img src="../img/штаны-PhotoRoom 1.png " alt="" width="130" height="90"></a></td>
+              <td class="px-4 py-3">Мотоштаны Fox 180 Leed Pant, fluo orange</td>
+              <td class="px-4 py-3">
+                <div class="counter">
+                  <button class="btn-minus">-</button>
+                  <span id="counter-value-2">1</span>
+                  <button class="btn-plus">+</button>
+                </div>
+              </td>
+              <td class="px-4 py-3 text-lg text-gray-900"><span class="price">13 990 ₽</span></td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3"><a href="#"><img src="../img/очки-PhotoRoom 1.png " alt="" width="130" height="90"></a></td>
+              <td class="px-4 py-3">Очки 100% Accuri 2 black, mirror silver lens</td>
+              <td class="px-4 py-3">
+                <div class="counter">
+                  <button class="btn-minus">-</button>
+                  <span id="counter-value-3">1</span>
+                  <button class="btn-plus">+</button>
+                </div>
+              </td>
+              <td class="px-4 py-3 text-lg text-gray-900"><span class="price">6 990 ₽</span></td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3"><a href="#"><img src="../img/мотоботы-PhotoRoom 1.png " alt="" width="130" height="90"></a></td>
+              <td class="px-4 py-3">Мотоботы X-3 SRS Boots 11/45</td>
+              <td class="px-4 py-3">
+                <div class="counter">
+                  <button class="btn-minus">-</button>
+                  <span id="counter-value-4">1</span>
+                  <button class="btn-plus">+</button>
+                </div>
+              </td>
+              <td class="px-4 py-3 text-lg text-gray-900"><span class="price">66 864 ₽</span> </td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3"><a href="#"><img src="../img/перчатки-PhotoRoom 1.png " alt="" width="130" height="90"></a></td>
+              <td class="px-4 py-3">Перчатки Ridefit Gotland Gloves</td>
+              <td class="px-4 py-3">
+                <div class="counter">
+                  <button class="btn-minus">-</button>
+                  <span id="counter-value-4">1</span>
+                  <button class="btn-plus">+</button>
+                </div>
+              </td>
+              <td class="px-4 py-3 text-lg text-gray-900"><span class="price">5 241 ₽</span> </td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3"><a href="#"><img src="../img/шлем-PhotoRoom 1.png " alt="" width="130" height="90"></a></td>
+              <td class="px-4 py-3">Шлем Moto 9 MIPS® Gotland Helmet</td>
+              <td class="px-4 py-3">
+                <div class="counter">
+                  <button class="btn-minus">-</button>
+                  <span id="counter-value-4">1</span>
+                  <button class="btn-plus">+</button>
+                </div>
+              </td>
+              <td class="px-4 py-3 text-lg text-gray-900"><span class="price">74 162 ₽</span> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flex pl-4 justify-end mb-10 ">
+        <button class="flex ml-auto text-white bg-bbb-900 border-0 py-2 px-6 focus:outline-none hover:bg-aaa-900 rounded">ФОРМИТЬ ЗАКАЗ</button>
+      </div>
+    </div>
+</div>
+
+<footer class="text-black bg-aaa-900 body-font mt-10">
+  <div class="container pt-5">
+    <div class="flex flex-wrap md:text-left text-center order-first">
+      <div class="lg:w-1/4 md:w-1/2 w-full ">
+        <h2 class="title-font font-medium text-black tracking-widest text-sm mb-3">О компании</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-black hover:text-white duration-300">Контакты</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">О компании</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">Новости</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">Политика конфиденциальности</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full ">
+        <h2 class="title-font font-medium text-black tracking-widest text-sm mb-3">О компании</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-black hover:text-white duration-300" >Контакты</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">О компании</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">Новости</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">Политика конфиденциальности</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full ">
+        <h2 class="title-font font-medium text-black tracking-widest text-sm mb-3">О компании</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-black hover:text-white duration-300">Контакты</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">О компании</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">Новости</a>
+          </li>
+          <li>
+            <a class="text-black hover:text-white duration-300">Политика конфиденциальности</a>
+          </li>
+        </nav>
+      </div>
+
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Остались вопросы?</h2>
+        <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div class="relative w-40 sm:w-auto lg:mr-0 sm:mr-4 mr-2">
+                <input placeholder="Имя" type="text" id="footer-field" name="footer-field" class="w-full bg-white-800 rounded border bg-opacity-40  text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                <input placeholder="Email" type="text" id="footer-field" name="footer-field" class="w-full bg-white-800 rounded border bg-opacity-40  text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2">
+                <textarea name="" id="" cols="10" rows="2" placeholder="Ваш вопрос..." type="text"id="footer-field" name="footer-field" class="w-full bg-white-800 rounded border bg-opacity-40  text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 "></textarea>
+            </div>
+        </div>
+        <button class="w-full inline-flex duration-300 text-white bg-bbb-900 border-0 py-2 px-6 focus:outline-none hover:bg-aaa-600 rounded">Button</button>
+    </div>
+    
+    </div>
+  </div>
+  <div class="bg-aaa-900 bg-opacity-75  mt-2" >
+    <div class="container mx-auto flex items-center sm:flex-row flex-col">
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="ml-3 text-gray-400">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+            <path fill="#1976d2" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5 V37z"></path><path fill="#fff" d="M35.937,18.041c0.046-0.151,0.068-0.291,0.062-0.416C35.984,17.263,35.735,17,35.149,17h-2.618 c-0.661,0-0.966,0.4-1.144,0.801c0,0-1.632,3.359-3.513,5.574c-0.61,0.641-0.92,0.625-1.25,0.625C26.447,24,26,23.786,26,23.199 v-5.185C26,17.32,25.827,17,25.268,17h-4.649C20.212,17,20,17.32,20,17.641c0,0.667,0.898,0.827,1,2.696v3.623 C21,24.84,20.847,25,20.517,25c-0.89,0-2.642-3-3.815-6.932C16.448,17.294,16.194,17,15.533,17h-2.643 C12.127,17,12,17.374,12,17.774c0,0.721,0.6,4.619,3.875,9.101C18.25,30.125,21.379,32,24.149,32c1.678,0,1.85-0.427,1.85-1.094 v-2.972C26,27.133,26.183,27,26.717,27c0.381,0,1.158,0.25,2.658,2c1.73,2.018,2.044,3,3.036,3h2.618 c0.608,0,0.957-0.255,0.971-0.75c0.003-0.126-0.015-0.267-0.056-0.424c-0.194-0.576-1.084-1.984-2.194-3.326 c-0.615-0.743-1.222-1.479-1.501-1.879C32.062,25.36,31.991,25.176,32,25c0.009-0.185,0.105-0.361,0.249-0.607 C32.223,24.393,35.607,19.642,35.937,18.041z"></path>
+            </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg style="color: red" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16"> <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" fill="red"></path> </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg style="color: rgb(26, 156, 188);" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" fill="#1a9cbc"></path> </svg>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+</footer>
+
+<script src="./bascket.js"></script>
+</body>
+</html>

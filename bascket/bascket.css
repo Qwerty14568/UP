@@ -1,0 +1,61 @@
+.container{
+  max-width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+}
+.height{
+  height: 100%;
+  width: 100%;
+}
+header{
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+.bg-aaa-900{
+  background-color: #816690;
+}
+.bg-bbb-900{
+  background-color: #673386;
+}
+.bascket{
+  height: 30px;
+  width: 30px;
+}
+.user{
+  height: 30px;
+  width: 30px;
+}
+.korzina h1{
+  font-size: 48px;
+  margin-top: 50px;
+}
+.left{
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  align-items: center;
+}
+.left p{
+  font-size: 32px;
+}
+.left span{
+  font-size: 24px;
+}
+.left a{
+  font-size: 24px;
+  color: rgba(128, 128, 128, 0.705);
+}
+.price{
+  display: flex;
+  justify-content: end;
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+}
+.counter {
+  display: flex;
+  align-items: center;
+}

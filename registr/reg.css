@@ -1,0 +1,71 @@
+.container{
+  max-width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+}
+.height{
+  height: 100%;
+  width: 100%;
+}
+.logo img{
+  height:80px;
+   width:99px;
+}
+.right-icons img{
+  height: 30px;
+  width: 30px;
+}
+header{
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+.bg-aaa-900{
+  background-color: #816690;
+}
+.bg-bbb-900{
+  background-color: #673386;
+}
+.registr{
+  color: #4E04ED;
+}
+.name{
+  position: absolute;
+  top: -12px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}
+.login{
+  position: absolute;
+  top: 50px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}
+.phone{
+  position: absolute;
+  top: 113px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}
+.password{
+  position: absolute;
+  top: 173px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}
+.email{
+  position: absolute;
+  top: 235px;
+  left: 13px;
+  background-color: white;
+  color: #673386;
+  font-weight: bold;
+}
